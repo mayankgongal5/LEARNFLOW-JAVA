@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class User {
     String username;
     String password;
