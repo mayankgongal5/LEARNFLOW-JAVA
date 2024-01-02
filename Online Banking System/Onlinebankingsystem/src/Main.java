@@ -136,6 +136,7 @@ public class Main {
     static void viewtransactionhistory() {
         System.out.print("Enter account number: ");
         String accountNumber = sc.next();
+
         Bankaccount account = findAccount(accountNumber);
         if (account != null) {
             ArrayList<String> transactions = account.gettransactionhistory();
